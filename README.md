@@ -1,7 +1,7 @@
 ## FA2023-IntroToPython
 * Instructor: Barbara Compagnoni
 * Email: compagnb@gmail.com
-* Class Repo: https://github.com/compagnb/FA
+* Class Repo: https://github.com/compagnb/FA2023-IntroToPython
 * [Vocabulary Sheet](wkNotes/vocab.md)
 * [Keywords Sheet](wkNotes/keywords.md)
 * [Students Folders](studentWork)
@@ -81,7 +81,8 @@ trickOrTreatBag.append("twix - right")
 print(trickOrTreatBag)
 print(trickOrTreatBag[len(trickOrTreatBag)-1])
 trickOrTreatBag.remove("twix - right")
-print(trickOrTreatBag[len(trickOrTreatBag)-1])```
+print(trickOrTreatBag[len(trickOrTreatBag)-1])
+```
 
 ## Week  3: Functions
 
