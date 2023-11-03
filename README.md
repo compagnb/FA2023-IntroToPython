@@ -54,7 +54,6 @@ print("Wow, you are "+ ans2 +" years old!")
 
 ```
 
-
 ## Week 2: Lists
 
 ### Variable types we have learned so far:
@@ -69,17 +68,11 @@ print("Wow, you are "+ ans2 +" years old!")
 
 ### Arrays
 * A list of any of the other variable types, or objects
+* Indexes (spaces in the list) start with 0, not one
 
 ### Class Code: Candy Bags
-```# This is a comment
-
-name = input("What is your name?")
-print("hello " + name + "!")
-
-ans2 = input("What is your age?")
-print("Wow, you are "+ ans2 +" years old!")
-
-```trickOrTreatBag=["starburst", "candy corn", "kit kat", "Hershey's bar with almonds" ]
+```
+trickOrTreatBag=["starburst", "candy corn", "kit kat", "Hershey's bar with almonds" ]
 print(trickOrTreatBag)
 print(trickOrTreatBag[0])
 
@@ -88,10 +81,9 @@ trickOrTreatBag.append("twix - right")
 print(trickOrTreatBag)
 print(trickOrTreatBag[len(trickOrTreatBag)-1])
 trickOrTreatBag.remove("twix - right")
-print(trickOrTreatBag[len(trickOrTreatBag)-1])
-```
+print(trickOrTreatBag[len(trickOrTreatBag)-1])```
 
-## Week 3: Functions
+## Week  3: Functions
 
 ### Functions
 * A function is a piece of code we can reuse over and over again
