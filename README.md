@@ -4,7 +4,7 @@
 * Class Repo: https://github.com/compagnb/FA2023-IntroToPython
 * [Vocabulary Sheet](wkNotes/vocab.md)
 * [Keywords Sheet](wkNotes/keywords.md)
-* [Students Folders](studentWork)
+* [Students Folders](Class Files)
 
 ## Week 1: Idle & Variables
 
