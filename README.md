@@ -5,6 +5,7 @@
 * [Vocabulary Sheet](wkNotes/vocab.md)
 * [Keywords Sheet](wkNotes/keywords.md)
 * [Students Folders](classFiles)
+* No Classes: 11/25, 12/2
 
 ## Week 1: Idle & Variables
 
