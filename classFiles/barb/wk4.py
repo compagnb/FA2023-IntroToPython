@@ -12,6 +12,7 @@ def testLower(theNum, guessNum):
         print("The number is lower than your guess.")
 
 def testEquals(theNum, guessNum, guessCorrect):
+    
     if theNum == guessNum:
         print("Correct! You chose the right number")
         guessCorrect = True

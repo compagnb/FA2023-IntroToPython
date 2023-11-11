@@ -25,7 +25,8 @@ def testEquals(theNum, guessNum):
 
 ## game play starts here
 guessCorrect = False
-number=3
+number=8
+
 
 while guessCorrect == False:
     guess = input("I am thinking of a number between  1 and 10 guess the number.")
