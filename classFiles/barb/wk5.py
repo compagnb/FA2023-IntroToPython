@@ -15,9 +15,9 @@ import random #imports a module for us to use other peoples code!
 
 def testNumbers(guess, answer):
     if guess < answer:
-        print(guess + " is lower than the number I am thinking of.")
+        print(str(guess) + " is lower than the number I am thinking of.")
     elif guess > answer:
-        print(guess + " is higher than the number I am thinking of.")
+        print(str(guess) + " is higher than the number I am thinking of.")
   
       
 testNumbers(str(50), str(5))
@@ -29,8 +29,8 @@ ans = random.randint(lowLimit,highLimit)
 #print(ans)
 guess = input("I am thinking of a number between " + str(lowLimit) + " and " + str(highLimit) + ". What number am I thinking of?")
 
-while int(guess)== ans:
-    testNumber(int(guess),ans)
+while int(guess) != ans:
+    testNumbers(int(guess), ans)
     guess = input("I am thinking of a number between " + str(lowLimit) + " and " + str(highLimit) + ". What number am I thinking of?")
 
 print("You guessed " + guess + " and I was thinking of " + str(ans) + ". You win!")
